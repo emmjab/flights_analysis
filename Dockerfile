@@ -20,3 +20,5 @@ RUN conda env update -q -f /tmp/environment.yml && \
     /opt/conda/bin/pip install -r /tmp/requirements.txt && \
     conda clean -y --all && \
     conda env export -n "root"
+
+RUN echo "export PS1=\"\w$ \"" >> ~/.bashrc
