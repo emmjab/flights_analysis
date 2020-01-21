@@ -18,7 +18,7 @@ df.head()
 
 
 # Select only flights to Austin (AUS)
-df = df[df['DEST'] == 'DFW']
+df = df[df['DEST'] == 'AUS']
 df.head()
 
 
