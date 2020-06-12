@@ -1,30 +1,17 @@
-# Flights tutorial
+A Flights Analysis
+==================
 
-This is a project for introducing the basic concepts of the Renku platform. 
-It contains some basic scripts to analyze flights data from the U.S. Department
-of Transportation. For convenience, we have published a 
-[subset of this data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/WTZS4K)
-for use with the tutorial on the Harvard Dataverse. 
+This is a project that will eventually make its way to the 
+[RenkuLab platform](https://renkulab.io).
 
-## Completing the tutorial
+If you've never used renku, you can read about it in the 
+[documentation](https://renku.readthedocs.io/en/latest).
+You can also try out the [first steps tutorial](https://renku.readthedocs.io/en/latest/tutorials/01_firststeps.html)
+to test drive some of the features.
 
-The renku ["First steps" tutorial](https://renku.readthedocs.io/en/latest/user/firststeps.html)
-starts a new project from scratch and populates it with the necessary scripts 
-and data to run a basic analysis. This project skips ahead and already contains 
-the code you will need. 
+If you run into any usability or conceptual issues or need help
+setting up an instance for your institution, feel free to ask the 
+renku team on https://renku.discourse.group/.
 
-To continue:
-
-1. Create an account on https://renkulab.io.
-2. Fork this project to your own namespace. 
-3. Click on `Environments -> New` and start a new JupyterLab session. 
-
-The project is still missing the data. Click on the link to the Dataverse dataset
-above, copy paste the URL and do:
-
-```
-/work/flights-tutorial$ renku dataset import <paste Dataverse URL>
-```
-
-Now you can continue with the tutorial, starting with 
-["Build a reproducible workflow"](https://renku.readthedocs.io/en/latest/user/firststeps.html#build-a-reproducible-workflow).
+Definitely also let the team know if there seems to be a topic missing
+from the documentation, or features you'd be interested in!
