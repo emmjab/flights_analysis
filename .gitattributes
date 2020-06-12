@@ -1,3 +1,0 @@
-data/201901_us_flights_1/2019-01-flights.csv.zip filter=lfs diff=lfs merge=lfs -text
-data/output/2019-01-flights-filtered.csv filter=lfs diff=lfs merge=lfs -text
-data/output/2019-01-flights-count.txt filter=lfs diff=lfs merge=lfs -text
